@@ -15,7 +15,7 @@ try:
     DB_NAME = 'alx_book_store'
 
 
-    create_db_query = "CREATE DATABASE IF NOT EXISTS {}".format(DB_NAME)
+    create_db_query = "CREATE DATABASE IF NOT EXISTS alx_book_store"
     cursor.execute(create_db_query)
 
     print(f"Database '{DB_NAME}' created successfully!")
